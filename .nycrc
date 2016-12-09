@@ -2,5 +2,6 @@
 	"reporter": [
 		"lcov",
 		"text-summary"
-	]
+	],
+	"exclude": [".tmp", "test.webpack.config.js"]
 }
