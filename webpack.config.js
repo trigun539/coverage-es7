@@ -20,8 +20,7 @@ module.exports = {
         loader: 'babel',
         exclude: /node_modules/,
         query: {
-          cacheDirectory: true,
-          presets: ['latest', 'react']
+          cacheDirectory: true
         }
       }
     ]
