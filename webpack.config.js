@@ -21,7 +21,7 @@ module.exports = {
         exclude: /node_modules/,
         query: {
           cacheDirectory: true,
-          presets: ['latest']
+          presets: ['latest', 'react']
         }
       }
     ]
